@@ -84,6 +84,53 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* My Journey Section */}
+      <div className="journey-container">
+        <h2 className="journey-title">My Journey</h2>
+        <div className="journey-content">
+          <div className="journey-column">
+            <h3>Education</h3>
+
+            <div className="journey-item">
+              <span className="dot"></span>
+              <h4>Informatics Institute of Technology | IIT Campus</h4>
+              <p>BSc (Hons) Computer Science</p>
+              <p className="journey-date">Sep 2023 - Current</p>
+            </div>
+
+            <div className="journey-item">
+              <span className="dot"></span>
+              <h4>IJSE - Institute of Software Engineering</h4>
+              <p>CMJD Professional | Comprehensive Master Java Developer</p>
+              <p className="journey-date">Mar 2024 - Oct 2024</p>
+            </div>
+            
+            <div className="journey-item">
+              <span className="dot"></span>
+              <h4>Richmond College Galle</h4>
+              <p>G.C.E Advanced Level Examination</p>
+              <p className="journey-date">Sep 2007 - Feb 2021</p>
+            </div>
+          </div>
+          
+          <div className="journey-column">
+            <h3>Experience</h3>
+            <div className="journey-item">
+              <span className="dot"></span>
+              <h4>IJSE - Institute of Software Engineering</h4>
+              <p>CMJD Professional | Comprehensive Master Java Developer</p>
+              <p className="journey-date">Mar 2024 - Oct 2024</p>
+            </div>
+            <div className="journey-item">
+              <span className="dot"></span>
+              <h4>Richmond College Galle</h4>
+              <p>G.C.E Advanced Level Examination</p>
+              <p className="journey-date">Sep 2007 - Feb 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
