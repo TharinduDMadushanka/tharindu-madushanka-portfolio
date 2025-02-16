@@ -5,7 +5,7 @@
 }
 
 .background-image {
-    height: 95vh;        /* Full viewport height */
+    height: 96vh;        /* Full viewport height */
     width: auto;          /* Adjust width to keep the aspect ratio */
     object-fit: cover;    /* Ensures the image is not stretched */
     position: absolute;   /* Position the image absolutely */
