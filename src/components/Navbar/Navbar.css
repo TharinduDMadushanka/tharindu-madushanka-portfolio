@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.nav-container nav h1{
+    font-size: 36px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.nav-container nav h1::first-letter{ /* Pseudo-elements */
+    color: #475459;
+}
+
+nav > ul > li { /* Child combinator */
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+/* after hovering nav links then add underline hover img */
+nav ul li a::after{  /* Pseudo elements with generated content */
+    content: '';
+    width: 0;  /* hide red line */ 
+    height: 3px;
+    background: #6C808C;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{  /* User action pseudo class */  /* Pseudo elements with generated content */
+    width: 100%;
+}
+
+nav ul li:not(:last-child) { /* Negation pseudo class(add gap between nav links) */
+    margin-right: 30px; 
+}
