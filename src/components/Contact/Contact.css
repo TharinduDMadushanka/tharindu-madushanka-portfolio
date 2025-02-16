@@ -114,3 +114,35 @@ form textarea {
     background: #B8D0D9;
     color: black;
 }
+
+/* Tools & Technologies Section */
+.tools-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tools-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tools-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tools-icons i {
+    font-size: 50px;
+    color: gray;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tools-icons i:hover {
+    color: black;
+    transform: scale(1.2);
+}
