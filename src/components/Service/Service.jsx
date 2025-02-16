@@ -15,7 +15,7 @@ const Service = () => {
                        application scalability. My expertise lies in creating secure, high-performance APIs, maintaining data 
                        integrity, and collaborating closely with frontend developers to deliver seamless experiences.
                     </p>
-                    <a href="">Learn more</a>
+                    {/* <a href="">Learn more</a> */}
                 </div>
             
                 <div>
@@ -25,7 +25,7 @@ const Service = () => {
                        modern frameworks like React and Bootstrap, I ensure that applications are visually appealing and 
                        provide an engaging, user-friendly experience on all devices.
                     </p>
-                    <a href="">Learn more</a>
+                    {/* <a href="">Learn more</a> */}
                 </div>
             
                 <div>
@@ -35,7 +35,7 @@ const Service = () => {
                        I approach challenges analytically, breaking them down into manageable components and finding innovative 
                        solutions that enhance efficiency and productivity.
                     </p>
-                    <a href="">Learn more</a>
+                    {/* <a href="">Learn more</a> */}
                 </div>
             </div>            
         </div>
