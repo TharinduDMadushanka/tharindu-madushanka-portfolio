@@ -1,0 +1,41 @@
+
+.hero{
+    padding-left: 40px;
+    height: 80vh;
+}
+
+.background-image {
+    height: 95vh;        /* Full viewport height */
+    width: auto;          /* Adjust width to keep the aspect ratio */
+    object-fit: cover;    /* Ensures the image is not stretched */
+    position: absolute;   /* Position the image absolutely */
+    top: 30px;            /* Adjust this value to move the image down (80px is an example) */
+    right: 0;             /* Align the image to the right */
+    z-index: -1;          /* Send the image behind the content */
+}
+
+.header-text{
+    margin-top: 15%;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;  /* Keeps the text above the image */
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text #animate{  /* Animations */
+    color:  #B8D0D9;
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+}
+
+#animate {animation-timing-function: ease-in-out;} /* Animations */
+
+/* @keyframes mymove { 
+    from {left: 0px;}
+    to {left: 393px;}
+} */
