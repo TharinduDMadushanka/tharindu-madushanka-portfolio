@@ -1,0 +1,31 @@
+.about-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Bootstrap Accordion Customization */
+  .accordion-button {
+    background: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 12px;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-body {
+    font-size: 16px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+  }
+  
+  /* Collapsed state border */
+  .accordion-header {
+    border-bottom: 1px solid black;
+  }
+  
