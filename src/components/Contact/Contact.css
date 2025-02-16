@@ -1,6 +1,6 @@
 /* Main Contact Section */
 #contact {
-    padding: 50px;
+    padding: 40px;
     background: black;
     color: white;
     display: flex;
@@ -107,6 +107,7 @@ form textarea {
     border-radius: 5px;
     color: white;
     transition: 0.3s;
+    margin-left: 660px;
 }
 
 .btn-submit:hover {

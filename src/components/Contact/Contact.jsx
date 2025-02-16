@@ -5,7 +5,7 @@ import './Contact.css'; // Ensure this file is linked correctly
 const Contact = () => {
   return (
     <div id="contact">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           {/* Left Section */}
           <div className="contact-left">
