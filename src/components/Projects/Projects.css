@@ -43,5 +43,12 @@
     border-radius: 5px;
     border: 1px solid hsla(212, 100%, 67%, 0.837);
     color: rgba(245, 245, 245, 0.715);
+    transition: 0.5s;
+  }
+
+  .all-proj-btn:hover{
+    transform: scale(1.05);
+    border: 1px solid hsla(212, 100%, 67%, 0.837);
+    color: rgba(245, 245, 245, 0.715);
   }
   
