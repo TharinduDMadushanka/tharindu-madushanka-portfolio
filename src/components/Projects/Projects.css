@@ -1,0 +1,54 @@
+.projects-section {
+    /* background-color: #1e1e1e; */
+    padding: 40px;
+  }
+
+  .projects-section h6{
+    color: hsla(212, 100%, 67%, 0.837);
+  }
+  
+  .project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #2a2a2a;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .project-card:hover img {
+    filter: grayscale(0%);
+  }
+  
+  .project-info {
+    padding: 15px;
+  }
+
+  .project-info a{
+    color: hsla(212, 100%, 67%, 0.837);
+    text-decoration: none;
+  }
+  
+  .all-proj-btn {
+    border-radius: 5px;
+    border: 1px solid hsla(212, 100%, 67%, 0.837);
+    color: rgba(245, 245, 245, 0.715);
+    transition: 0.5s;
+  }
+
+  .all-proj-btn:hover{
+    transform: scale(1.05);
+    border: 1px solid hsla(212, 100%, 67%, 0.837);
+    color: rgba(245, 245, 245, 0.715);
+  }
+  
