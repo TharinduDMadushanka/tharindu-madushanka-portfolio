@@ -1,31 +1,100 @@
 .about-container {
+    color: #c9d1d9;
     padding: 40px;
-    max-width: 800px;
-    margin: auto;
+    border-radius: 10px;
   }
   
-  /* Bootstrap Accordion Customization */
+  /* Accordion Styling */
+  .accordion-item {
+    background-color: #161b22;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
   .accordion-button {
-    background: none;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    border-bottom: 1px solid black;
-    padding: 12px;
+    background-color: #21262d;
+    color: #c9d1d9;
   }
   
-  .accordion-button:focus {
-    box-shadow: none;
+  .accordion-button:not(.collapsed) {
+    background-color: #30363d;
   }
   
   .accordion-body {
-    font-size: 16px;
-    padding: 15px;
-    border-bottom: 1px solid black;
+    background-color: #161b22;
+    color: #8b949e;
   }
   
-  /* Collapsed state border */
-  .accordion-header {
-    border-bottom: 1px solid black;
+  /* Journey Section */
+  .journey-container {
+    margin-top: 50px;
+    background-color: #161b22;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .journey-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .journey-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .journey-column {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .journey-column h3 {
+    font-size: 22px;
+    color: #58a6ff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #30363d;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .journey-item {
+    background-color: #0d1117;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+    border-left: 3px solid #58a6ff;
+  }
+  
+  .journey-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c9d1d9;
+  }
+  
+  .journey-item p {
+    font-size: 14px;
+    color: #8b949e;
+  }
+  
+  .journey-date {
+    font-size: 12px;
+    color: #6e7681;
+  }
+  
+  /* Timeline Dots */
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #58a6ff;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 15px;
   }
   
