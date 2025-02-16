@@ -1,10 +1,11 @@
 import React from 'react'
+import './Service.css'
 
 const Service = () => {
   return (
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1> 
+        <div class="container-fluid">
+            {/* <h1 class="sub-title">My Services</h1>  */}
 
             <div class="services-list">
                 <div>
