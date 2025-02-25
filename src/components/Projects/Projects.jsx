@@ -4,28 +4,28 @@ import project from '../../assets/Projects/project1.jpg';
 
 const projects = [
   {
-    title: "Alana - live data app",
-    description: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, and recently played tracks with detailed audio information about each track.",
-    image: project,
-    link: "#",
+    title: "Interview Suite - AI Mock Interview Platform",
+    description: "An AI-powered mock interview practice platform designed to help interns prepare for real-world interviews. Features include AI-generated questions, automated answer evaluation, and real-time feedback. Built using Python Flask for the backend and React.js for the frontend.",
+    image: project,  // Replace with actual project image
+    link: "#", // Replace with actual project link
   },
   {
-    title: "Wohoo - weather app",
-    description: "A real-time weather application providing instant updates on current conditions, forecasts, and severe weather alerts worldwide.",
-    image: project,
-    link: "#",
+    title: "TechBlogs - A Blogging Platform",
+    description: "A full-stack blog website that allows users to create, edit, and manage blog posts. Supports user authentication, rich-text editing, and SEO optimization. Built with Spring Boot for the backend and React.js for the frontend.",
+    image: project,  // Replace with actual project image
+    link: "#", // Replace with actual project link
   },
   {
-    title: "Pagee - real estate UI kit",
-    description: "A complete UI kit for real estate platforms, featuring interactive property listings, search filters, and user-friendly layouts.",
-    image: project,
-    link: "#",
+    title: "EstateFinder - Real Estate Search App",
+    description: "A modern real estate search application that enables users to find properties using advanced filtering options such as location, price range, property type, and amenities. Provides a seamless UI for an enhanced user experience.",
+    image: project,  // Replace with actual project image
+    link: "#", // Replace with actual project link
   },
   {
-    title: "Keikoko - agency web",
-    description: "A modern agency website template with a sleek design, optimized performance, and seamless user experience.",
-    image: project,
-    link: "#",
+    title: "LibraPro - Library Management System",
+    description: "A JavaFX-based library management system that streamlines book borrowing, returns, and inventory management. Built using a layered architecture in Java, ensuring maintainability and scalability.",
+    image: project,  // Replace with actual project image
+    link: "#", // Replace with actual project link
   },
 ];
 
