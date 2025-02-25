@@ -35,12 +35,12 @@ const Projects = () => {
         <h2 className="text-white fw-bold mb-4">Some of my favorite projects.</h2>
         <div className="row g-4">
           {projects.map((project, index) => (
-            <div key={index} className="col-md-6">
-              <div className="project-card">
+            <div key={index} className="col-sm-6 col-md-4 d-flex">
+              <div className="project-card w-100">
                 <img src={project.image} alt={project.title} className="img-fluid" />
                 <div className="project-info">
                   <h5 className="text-white fw-bold">{project.title}</h5>
-                  <a href={project.link} className=" fw-bold">See project ↗</a>
+                  <a href={project.link} className="fw-bold">See project ↗</a>
                 </div>
               </div>
             </div>
