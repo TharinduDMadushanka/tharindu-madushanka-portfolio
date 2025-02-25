@@ -1,53 +1,61 @@
 import React from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
-import "./Projects.css"; // Custom CSS file
-
-import project from '../../assets/Projects/project1.jpg'
+import "./Projects.css";
+import project from '../../assets/Projects/project1.jpg';
+import interview_suite from '../../assets/Projects/interview-suite.png';
+import blog_site from '../../assets/Projects/blog-site.jpg';
+import real_estate from '../../assets/Projects/real-estate.png';
+import library_ms from '../../assets/Projects/library-ms.jpg';
 
 const projects = [
   {
-    title: "Alana - live data app",
-    image: project,
-    link: "#",
+    title: "Interview Suite - AI Mock Interview Platform",
+    description: "An AI-powered mock interview practice platform designed to help interns prepare for real-world interviews. Features include AI-generated questions, automated answer evaluation, and real-time feedback. Built using Python Flask for the backend and React.js for the frontend.",
+    image: interview_suite,  
+    link: "#", 
   },
   {
-    title: "Wohoo - weather app",
-    image: project,
-    link: "#",
+    title: "TechBlogs - A Blogging Platform",
+    description: "A full-stack blog website that allows users to create, edit, and manage blog posts. Supports user authentication, rich-text editing, and SEO optimization. Built with Spring Boot for the backend and React.js for the frontend.",
+    image: blog_site, 
+    link: "#", 
   },
   {
-    title: "Pagee - real estate UI kit",
-    image: project,
-    link: "#",
+    title: "EstateFinder - Real Estate Search App",
+    description: "A modern real estate search application that enables users to find properties using advanced filtering options such as location, price range, property type, and amenities. Provides a seamless UI for an enhanced user experience.",
+    image: real_estate,  
+    link: "#", 
   },
   {
-    title: "Keikoko - agency web",
-    image: project,
-    link: "#",
+    title: "LibraPro - Library Management System",
+    description: "A JavaFX-based library management system that streamlines book borrowing, returns, and inventory management. Built using a layered architecture in Java, ensuring maintainability and scalability.",
+    image: library_ms,  
+    link: "#", 
   },
 ];
 
 const Projects = () => {
   return (
     <section className="projects-section">
-      <div className="container-fluid">
-        <h6 className=" fw-bold">Recent Work</h6>
-        <h2 className="text-white fw-bold mb-4">Some of my favorite projects.</h2>
-        <div className="row g-4">
+      <div className="container">
+        <h6 className="fw-bold featured-title">Featured Projects</h6>
+        <h2 className="text-white fw-bold mb-4">My Work</h2>
+
+        <div className="projects-grid">
           {projects.map((project, index) => (
-            <div key={index} className="col-sm-6 col-md-4 d-flex">
-              <div className="project-card w-100">
-                <img src={project.image} alt={project.title} className="img-fluid" />
-                <div className="project-info">
-                  <h5 className="text-white fw-bold">{project.title}</h5>
-                  <a href={project.link} className="fw-bold">See project ↗</a>
-                </div>
+            <div key={index} className="project-row">
+              {/* Left Side: Project Image */}
+              <div className="project-image-container">
+                <img src={project.image} alt={project.title} className="project-image" />
+              </div>
+
+              {/* Right Side: Project Description */}
+              <div className="project-description-box">
+                <h5 className="project-title">{project.title}</h5>
+                <p className="project-description">{project.description}</p>
+                <a href={project.link} className="project-link">View Project</a>
               </div>
             </div>
           ))}
-        </div>
-        <div className="mt-4">
-          <a href="#" className="btn all-proj-btn px-4 py-2">View All Projects</a>
         </div>
       </div>
     </section>
