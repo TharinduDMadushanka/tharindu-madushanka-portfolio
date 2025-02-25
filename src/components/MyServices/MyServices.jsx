@@ -39,7 +39,7 @@ const services = [
 const MyServices = () => {
   return (
     <section className="services-section">
-      <h2 className="services-title">The Service We Provide <br /> For You</h2>
+      <h2 className="services-title">What I Bring to the Table</h2>
       <div className="services-container">
         {services.map((service, index) => (
           <div key={index} className="service-box">
