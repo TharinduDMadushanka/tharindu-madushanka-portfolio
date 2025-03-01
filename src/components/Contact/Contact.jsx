@@ -56,7 +56,7 @@ const Contact = () => {
 
         {/* Tools and Technologies Section */}
         <div className="tools-section">
-          <h2 className="tools-title">Tools and Technologies</h2>
+          <h2 className="tools-title pb-5">Tools and Technologies</h2>
           <div className="tools-icons">
             <img src={java} alt="Java" title="Java" />
             <img src={python} alt="Python" title="Python" />
