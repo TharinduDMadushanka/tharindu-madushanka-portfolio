@@ -10,6 +10,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
+    height: 250px;
 }
 
 .certificate-card:hover {
@@ -19,7 +20,7 @@
 /* Certificate Image */
 .certificate-image {
     width: 100%;
-    height: auto;
+    height: 250px;
     display: block;
     border-radius: 10px;
 }
@@ -40,7 +41,7 @@
     border-radius: 10px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    color: #fff;
+    color: hsl(221, 69%, 49%);
     font-weight: bold;
     text-align: center;
 }
