@@ -2,6 +2,28 @@ import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Contact.css'; // Ensure this file is linked correctly
 
+import java from '../../assets/Tools/java.png'
+import python from '../../assets/Tools/python.png'
+import java_script from '../../assets/Tools/js.png'
+import node_js from '../../assets/Tools/node.png'
+import html from '../../assets/Tools/html.png'
+import css from '../../assets/Tools/css.png'
+import spring_boot from '../../assets/Tools/sprong-boot.png'
+import react from '../../assets/Tools/react.png'
+import boostrap from '../../assets/Tools/bootstrap.png'
+import tailwind from '../../assets/Tools/tailwind.png'
+import git from '../../assets/Tools/git.png'
+import canva from '../../assets/Tools/canva.png'
+import figma from '../../assets/Tools/figma.png'
+import my_sql from '../../assets/Tools/my-sql.png'
+import postgre_sql from '../../assets/Tools/postgresql.png'
+import mongo_db from '../../assets/Tools/mongo-db.png'
+import inteiij from '../../assets/Tools/intellij.png'
+import pycharm from '../../assets/Tools/pycharm.png'
+import vs_code from '../../assets/Tools/vs-code.png'
+import netbeans from '../../assets/Tools/netbeans.png'
+import postman from '../../assets/Tools/postman.png'
+
 const Contact = () => {
   return (
     <div id="contact">
