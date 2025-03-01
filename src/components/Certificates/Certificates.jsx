@@ -1,17 +1,21 @@
 import React from 'react';
 import './Certificates.css';
-import cert1 from '../../assets/Projects/blog-site.jpg';  
-import cert2 from '../../assets/Projects/blog-site.jpg'; 
-import cert3 from '../../assets/Projects/blog-site.jpg'; 
+import sql from '../../assets/Certificates/sql.png';  
+import java from '../../assets/Certificates/java.png';  
+import js_meta from '../../assets/Certificates/js-meta.jpeg';  
+import oop from '../../assets/Certificates/oop.jpeg';  
+import sb from '../../assets/Certificates/spring-boot.jpeg';  
+import python from '../../assets/Certificates/python.jpeg';  
+
 
 const Certificates = () => {
   const certificateData = [
-    { id: 1, image: cert1, name: "React Developer", issued: "January 2024" },
-    { id: 2, image: cert2, name: "Java Spring Boot", issued: "March 2023" },
-    { id: 3, image: cert3, name: "Full-Stack Web Dev", issued: "December 2022" },
-    { id: 1, image: cert1, name: "React Developer", issued: "January 2024" },
-    { id: 2, image: cert2, name: "Java Spring Boot", issued: "March 2023" },
-    { id: 3, image: cert3, name: "Full-Stack Web Dev", issued: "December 2022" },
+    { id: 1, image: sql, name: "React Developer", issued: "January 2024" },
+    { id: 2, image: java, name: "Java Spring Boot", issued: "March 2023" },
+    { id: 3, image: js_meta, name: "Full-Stack Web Dev", issued: "December 2022" },
+    { id: 4, image: oop, name: "React Developer", issued: "January 2024" },
+    { id: 5, image: sb, name: "Java Spring Boot", issued: "March 2023" },
+    { id: 6, image: python, name: "Full-Stack Web Dev", issued: "December 2022" },
   ];
 
   return (
