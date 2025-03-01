@@ -146,3 +146,15 @@ form textarea {
     color: black;
     transform: scale(1.2);
 }
+
+.tools-icons img {
+    width: 60px;  /* Adjust size as needed */
+    height: auto;
+    margin: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tools-icons img:hover {
+    transform: scale(1.2);
+}
