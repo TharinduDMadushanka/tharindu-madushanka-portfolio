@@ -17,6 +17,12 @@
     transform: scale(1.05);
 }
 
+/* Clickable Link */
+.certificate-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Certificate Image */
 .certificate-image {
     width: 100%;
@@ -58,4 +64,19 @@
 
 .certificate-overlay p {
     font-size: 14px;
+}
+
+/* View More Button */
+.view-more-btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsla(0, 0%, 100%, 0.699);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.view-more-btn:hover {
+    color: hsla(0, 0%, 100%, 0.811);
 }
