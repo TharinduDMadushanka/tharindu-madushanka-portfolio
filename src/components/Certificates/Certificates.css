@@ -1,0 +1,82 @@
+/* Certificate Section Styling */
+#certificates {
+    padding: 50px 0;
+}
+
+/* Certificate Card */
+.certificate-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    height: 250px;
+}
+
+.certificate-card:hover {
+    transform: scale(1.05);
+}
+
+/* Clickable Link */
+.certificate-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Certificate Image */
+.certificate-image {
+    width: 100%;
+    height: 250px;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Overlay (Glassmorphism Effect) */
+.certificate-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: hsl(221, 69%, 49%);
+    font-weight: bold;
+    text-align: center;
+}
+
+.certificate-card:hover .certificate-overlay {
+    opacity: 1;
+}
+
+/* Certificate Text */
+.certificate-overlay h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.certificate-overlay p {
+    font-size: 14px;
+}
+
+/* View More Button */
+.view-more-btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsla(0, 0%, 100%, 0.699);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.view-more-btn:hover {
+    color: hsla(0, 0%, 100%, 0.811);
+}
