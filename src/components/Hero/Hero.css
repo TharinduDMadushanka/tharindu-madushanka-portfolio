@@ -1,41 +1,45 @@
-
-.hero{
+.hero {
     padding-left: 40px;
     height: 80vh;
 }
 
 .background-image {
-    height: 96vh;        /* Full viewport height */
-    width: auto;          /* Adjust width to keep the aspect ratio */
-    object-fit: cover;    /* Ensures the image is not stretched */
-    position: absolute;   /* Position the image absolutely */
-    top: 30px;            /* Adjust this value to move the image down (80px is an example) */
-    right: 0;             /* Align the image to the right */
-    z-index: -1;          /* Send the image behind the content */
+    height: 96vh;       
+    width: auto;        
+    object-fit: cover;  
+    position: absolute;  
+    top: 30px;         
+    right: 0;          
+    z-index: -1;       
 }
 
-.header-text{
+.header-text {
     margin-top: 15%;
     font-size: 30px;
     position: relative;
-    z-index: 1;  /* Keeps the text above the image */
+    z-index: 1;
 }
 
-.header-text h1{
+.header-text h1 {
     font-size: 60px;
     margin-top: 20px;
 }
 
-.header-text #animate{  /* Animations */
-    color:  #B8D0D9;
+.header-text #animate {  
+    color: #B8D0D9;
     position: relative;
-    animation: mymove 5s;
-    animation-fill-mode: forwards;
+    animation: mymove 5s ease-in-out forwards;
 }
 
-#animate {animation-timing-function: ease-in-out;} /* Animations */
-
-/* @keyframes mymove { 
-    from {left: 0px;}
-    to {left: 393px;}
-} */
+/* Typing Effect */
+.typing-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1f1f1;
+    white-space: nowrap;
+    border-right: 3px solid #fff; /* Blinking cursor */
+    padding-right: 5px;
+    overflow: hidden;
+    width: fit-content;
+    min-height: 30px;
+}
